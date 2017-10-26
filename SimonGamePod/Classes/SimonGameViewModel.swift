@@ -221,8 +221,7 @@ extension SimonGameViewModel {
 //MARK: public interface 
 public extension SimonGameViewModel {
     
-    public struct
-    PlayerScore{
+    public struct PlayerScore {
         public var correct: Int = 0
         public var errors: Int = 0
     }

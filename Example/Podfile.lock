@@ -1,0 +1,16 @@
+PODS:
+  - SimonGamePod (0.1.0)
+
+DEPENDENCIES:
+  - SimonGamePod (from `../`)
+
+EXTERNAL SOURCES:
+  SimonGamePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimonGamePod: 7570053253f3f7a4cbf082b2ae3b36893b6a5306
+
+PODFILE CHECKSUM: 61ced5f574dd8b10190d4338a7e94cd2b30f402b
+
+COCOAPODS: 1.2.1

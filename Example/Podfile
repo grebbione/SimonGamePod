@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SimonGamePod_Tests' do
+  pod 'SimonGamePod', :path => '../'
+  
+  
+end

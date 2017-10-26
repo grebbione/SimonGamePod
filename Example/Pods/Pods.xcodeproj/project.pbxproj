@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198959115E28C4A47C9268596AE915BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2A17E72A8666F036D101C0D53F0B4492 /* SimonGamePod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B4465EF9DB507FCEF218A6193CBD8C /* SimonGamePod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FFAA27A89A23B5EDB6035D9C21F1B4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6F71D84140F6E2181F1326A5CE7C901A /* Pods-SimonGamePod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C824C425A9CAE14EF792EE1EFB39ADB /* Pods-SimonGamePod_Tests-dummy.m */; };
+		7AC13FCB2877266AC988342309171DF4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB952A2145C7E8A8CF10E40FEE8D338E /* ReplaceMe.swift */; };
+		9999B7F6A4E43675D80A6847AA5B0998 /* Pods-SimonGamePod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 014A406B3E2B64D1236EB81A1B70CB81 /* Pods-SimonGamePod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9591B417B873C9712E2680D789EFC63 /* SimonGamePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B94CACD9784A4799F3A72DCC90158D /* SimonGamePod-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2937166977FB282EBBD77E520FB2D7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F09BB8DEAED46A3496B59022CADC1E0;
+			remoteInfo = SimonGamePod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014A406B3E2B64D1236EB81A1B70CB81 /* Pods-SimonGamePod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimonGamePod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		101B1689662D6848E87982E1D330D8D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C824C425A9CAE14EF792EE1EFB39ADB /* Pods-SimonGamePod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimonGamePod_Tests-dummy.m"; sourceTree = "<group>"; };
+		1FB9CB06E2F5739FB2E16B74F3B49EBF /* Pods-SimonGamePod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimonGamePod_Tests-resources.sh"; sourceTree = "<group>"; };
+		201DE1514F56058415E9AD8A59710A68 /* Pods-SimonGamePod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimonGamePod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25B94CACD9784A4799F3A72DCC90158D /* SimonGamePod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimonGamePod-dummy.m"; sourceTree = "<group>"; };
+		412375CE9FC5EDF0169F312F1481A515 /* Pods-SimonGamePod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimonGamePod_Tests.modulemap"; sourceTree = "<group>"; };
+		485DFE85627A573599595A0B96B3161B /* Pods-SimonGamePod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimonGamePod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		52A2B1540AD060DF1F125164E72CF79A /* Pods-SimonGamePod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimonGamePod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		58E39516048C98D281DCF81F81DE55FC /* Pods_SimonGamePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimonGamePod_Tests.framework; path = "Pods-SimonGamePod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B4465EF9DB507FCEF218A6193CBD8C /* SimonGamePod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimonGamePod-umbrella.h"; sourceTree = "<group>"; };
+		641763ADDAFA778365C920FF9620ADB4 /* SimonGamePod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimonGamePod.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8054E049F31872D0ECBF247C9BD84925 /* Pods-SimonGamePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimonGamePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8E1585A3FDB0327FD3A080A0A60EDBB7 /* SimonGamePod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimonGamePod-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CBCBE3A07F9B34846A8321BD9A336F2 /* Pods-SimonGamePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimonGamePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B27FA577568DCA867C7478B246A42086 /* SimonGamePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimonGamePod.framework; path = SimonGamePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAE5D6B103E7BAC56C0100C0BF7AFBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11A28C55D27061DBCBCB0043436C19C /* SimonGamePod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimonGamePod.xcconfig; sourceTree = "<group>"; };
+		EB952A2145C7E8A8CF10E40FEE8D338E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2154A9C6519A97AF46644CBE46F06BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFAA27A89A23B5EDB6035D9C21F1B4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E452DB374F10BAB605A6CF6B3CB8692B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198959115E28C4A47C9268596AE915BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21EEEB7212E30D40F340EA2D2DF2D6DD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8FCA994F6DAC8240FAD240041067A8A /* SimonGamePod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2A7ADC7E396C7886D2922C212F72C2D6 /* Pods-SimonGamePod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				101B1689662D6848E87982E1D330D8D8 /* Info.plist */,
+				412375CE9FC5EDF0169F312F1481A515 /* Pods-SimonGamePod_Tests.modulemap */,
+				201DE1514F56058415E9AD8A59710A68 /* Pods-SimonGamePod_Tests-acknowledgements.markdown */,
+				485DFE85627A573599595A0B96B3161B /* Pods-SimonGamePod_Tests-acknowledgements.plist */,
+				1C824C425A9CAE14EF792EE1EFB39ADB /* Pods-SimonGamePod_Tests-dummy.m */,
+				52A2B1540AD060DF1F125164E72CF79A /* Pods-SimonGamePod_Tests-frameworks.sh */,
+				1FB9CB06E2F5739FB2E16B74F3B49EBF /* Pods-SimonGamePod_Tests-resources.sh */,
+				014A406B3E2B64D1236EB81A1B70CB81 /* Pods-SimonGamePod_Tests-umbrella.h */,
+				9CBCBE3A07F9B34846A8321BD9A336F2 /* Pods-SimonGamePod_Tests.debug.xcconfig */,
+				8054E049F31872D0ECBF247C9BD84925 /* Pods-SimonGamePod_Tests.release.xcconfig */,
+			);
+			name = "Pods-SimonGamePod_Tests";
+			path = "Target Support Files/Pods-SimonGamePod_Tests";
+			sourceTree = "<group>";
+		};
+		45BD3A695614E9AC017699EEEE29C06C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A7ADC7E396C7886D2922C212F72C2D6 /* Pods-SimonGamePod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7953FD3620E3844E62EB6ED87244A4EC /* SimonGamePod */ = {
+			isa = PBXGroup;
+			children = (
+				7E27F239C3C146E4B6582DC566A3370A /* Classes */,
+			);
+			name = SimonGamePod;
+			path = SimonGamePod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				21EEEB7212E30D40F340EA2D2DF2D6DD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AD15690C0B20F44A742A0FD4907608CB /* Products */,
+				45BD3A695614E9AC017699EEEE29C06C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E27F239C3C146E4B6582DC566A3370A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EB952A2145C7E8A8CF10E40FEE8D338E /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		804DA1C95AB7B63FFE4FEDA334E7A148 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDAE5D6B103E7BAC56C0100C0BF7AFBA /* Info.plist */,
+				641763ADDAFA778365C920FF9620ADB4 /* SimonGamePod.modulemap */,
+				E11A28C55D27061DBCBCB0043436C19C /* SimonGamePod.xcconfig */,
+				25B94CACD9784A4799F3A72DCC90158D /* SimonGamePod-dummy.m */,
+				8E1585A3FDB0327FD3A080A0A60EDBB7 /* SimonGamePod-prefix.pch */,
+				63B4465EF9DB507FCEF218A6193CBD8C /* SimonGamePod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SimonGamePod";
+			sourceTree = "<group>";
+		};
+		AD15690C0B20F44A742A0FD4907608CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58E39516048C98D281DCF81F81DE55FC /* Pods_SimonGamePod_Tests.framework */,
+				B27FA577568DCA867C7478B246A42086 /* SimonGamePod.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E8FCA994F6DAC8240FAD240041067A8A /* SimonGamePod */ = {
+			isa = PBXGroup;
+			children = (
+				7953FD3620E3844E62EB6ED87244A4EC /* SimonGamePod */,
+				804DA1C95AB7B63FFE4FEDA334E7A148 /* Support Files */,
+			);
+			name = SimonGamePod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		983A5BAF635A5C5DE20871463D4C7AD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9999B7F6A4E43675D80A6847AA5B0998 /* Pods-SimonGamePod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7225E81AEB2486F83402A003DB66056 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A17E72A8666F036D101C0D53F0B4492 /* SimonGamePod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F4F459AAC7A783CC3E60B7D3446A37B /* Pods-SimonGamePod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21319683D664278420BC116B60A07CA5 /* Build configuration list for PBXNativeTarget "Pods-SimonGamePod_Tests" */;
+			buildPhases = (
+				F0182E32A826A3AE9878491C8EE57E26 /* Sources */,
+				E452DB374F10BAB605A6CF6B3CB8692B /* Frameworks */,
+				983A5BAF635A5C5DE20871463D4C7AD6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D125BD5A0B32EC3A07793B28B693E6F /* PBXTargetDependency */,
+			);
+			name = "Pods-SimonGamePod_Tests";
+			productName = "Pods-SimonGamePod_Tests";
+			productReference = 58E39516048C98D281DCF81F81DE55FC /* Pods_SimonGamePod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F09BB8DEAED46A3496B59022CADC1E0 /* SimonGamePod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625DF67C822AD819E4767B4453E72607 /* Build configuration list for PBXNativeTarget "SimonGamePod" */;
+			buildPhases = (
+				9E3B8406B1E7359713706C69A9FD038B /* Sources */,
+				A2154A9C6519A97AF46644CBE46F06BE /* Frameworks */,
+				E7225E81AEB2486F83402A003DB66056 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimonGamePod;
+			productName = SimonGamePod;
+			productReference = B27FA577568DCA867C7478B246A42086 /* SimonGamePod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AD15690C0B20F44A742A0FD4907608CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F4F459AAC7A783CC3E60B7D3446A37B /* Pods-SimonGamePod_Tests */,
+				9F09BB8DEAED46A3496B59022CADC1E0 /* SimonGamePod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E3B8406B1E7359713706C69A9FD038B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC13FCB2877266AC988342309171DF4 /* ReplaceMe.swift in Sources */,
+				F9591B417B873C9712E2680D789EFC63 /* SimonGamePod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0182E32A826A3AE9878491C8EE57E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F71D84140F6E2181F1326A5CE7C901A /* Pods-SimonGamePod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D125BD5A0B32EC3A07793B28B693E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimonGamePod;
+			target = 9F09BB8DEAED46A3496B59022CADC1E0 /* SimonGamePod */;
+			targetProxy = C2937166977FB282EBBD77E520FB2D7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2495ED5E68518A548EFBC4B2AE16617E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11A28C55D27061DBCBCB0043436C19C /* SimonGamePod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimonGamePod/SimonGamePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimonGamePod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimonGamePod/SimonGamePod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SimonGamePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35099F34BE6DD0E405CD958769E6B4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBCBE3A07F9B34846A8321BD9A336F2 /* Pods-SimonGamePod_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimonGamePod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimonGamePod_Tests/Pods-SimonGamePod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimonGamePod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B59F598E7241F9B60C425E5A1D8E708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11A28C55D27061DBCBCB0043436C19C /* SimonGamePod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimonGamePod/SimonGamePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimonGamePod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimonGamePod/SimonGamePod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimonGamePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9A9D4026E472227F77C80E13E602E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8054E049F31872D0ECBF247C9BD84925 /* Pods-SimonGamePod_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimonGamePod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimonGamePod_Tests/Pods-SimonGamePod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimonGamePod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21319683D664278420BC116B60A07CA5 /* Build configuration list for PBXNativeTarget "Pods-SimonGamePod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35099F34BE6DD0E405CD958769E6B4B0 /* Debug */,
+				C9A9D4026E472227F77C80E13E602E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625DF67C822AD819E4767B4453E72607 /* Build configuration list for PBXNativeTarget "SimonGamePod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B59F598E7241F9B60C425E5A1D8E708 /* Debug */,
+				2495ED5E68518A548EFBC4B2AE16617E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

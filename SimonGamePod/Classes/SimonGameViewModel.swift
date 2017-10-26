@@ -61,7 +61,7 @@ public class SimonGameViewModel{
     //MARK: - view model property
     
     //view controller callback
-    var delegate: SimonGameViewControllerDelegate?
+    public var delegate: SimonGameViewControllerDelegate?
     
     //play sequence
     var simonSequence = [SimonSequenceItem]()
@@ -72,12 +72,12 @@ public class SimonGameViewModel{
     var playerPlay: PlayerPlay!
     
     //tick duration (eg. lower value increase game speed)
-    var tickDurationSeconds: TimeInterval
+    public var tickDurationSeconds: TimeInterval
     let sequenceLenght: Int
     let lastMoveDuration: Int
     
     //MARK: -
-    init(tickDurationSeconds: Double, sequenceLenght: Int = 4, lastMoveDuration: Int = 4){
+    public init(tickDurationSeconds: Double, sequenceLenght: Int = 4, lastMoveDuration: Int = 4){
         self.tickDurationSeconds = tickDurationSeconds
         self.sequenceLenght = sequenceLenght
         self.lastMoveDuration = lastMoveDuration
@@ -221,9 +221,10 @@ extension SimonGameViewModel {
 //MARK: public interface 
 public extension SimonGameViewModel {
     
-    struct PlayerScore{
-        var correct: Int = 0
-        var errors: Int = 0
+    public struct
+    PlayerScore{
+        public var correct: Int = 0
+        public var errors: Int = 0
     }
     
     //MARK: - setup game (phase 1)

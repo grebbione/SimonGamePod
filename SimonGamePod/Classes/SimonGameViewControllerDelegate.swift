@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol SimonGameViewControllerDelegate{
+public protocol SimonGameViewControllerDelegate{
     func startNewGame()
     func update(tick: Int)
     func playerTurn()

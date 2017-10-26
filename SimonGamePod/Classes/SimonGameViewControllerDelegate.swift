@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+protocol SimonGameViewControllerDelegate{
+    func startNewGame()
+    func update(tick: Int)
+    func playerTurn()
+    func playerCorrectMove(counter: Int)
+    func playerWrongMove(counter: Int)
+    func gameFinished(score: SimonGameViewModel.PlayerScore)
+    
+    func simonButtonToPress(item: SimonGameViewModel.Simoncolor)
+}

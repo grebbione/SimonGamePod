@@ -90,7 +90,7 @@ extension SimonGameViewModel {
     func selectNextValidItem(for timerTick: TimeInterval) {
         if let item = simonSequence.filter({ $0.time == timerTick}).first {
             playerPlay.turnCurrentItem = item
-            print("next item for player")
+            print("next item for player to check timer -> \(timerTick) -> \(item.simonColor.rawValue)")
             if let lastSequenceItem = simonSequence.last,
                 lastSequenceItem == item {
                 playerPlay.waitForLastMove = true
@@ -133,9 +133,9 @@ extension SimonGameViewModel {
             switch action {
             case let .playbackAction(tick):
                 var lastItem = false
-                print("checkTimer -> \(tick)")
+                //print("checkTimer -> \(tick)")
                 if let item = simonSequence.filter({ $0.time == tick}).first {
-                    print("found item")
+                    print("found item - timer -> \(tick) - item -> \(item.simonColor.rawValue)")
                     self.delegate?.simonButtonToPress(item: item.simonColor)
                     if let lastSequenceItem = simonSequence.last,
                         lastSequenceItem == item {
@@ -168,29 +168,28 @@ extension SimonGameViewModel {
         case .userPlay:
             switch action {
             case let .playTapAction( item):
-                func internalCheckFinishGame() -> Bool{
+                func internalCheckFinishGame() {
                     if playerPlay.waitForLastMove {
                         gameState = .gameEnded
                         evolveGameState(using: .none)
-                        return true
                     }
-                    return false
                 }
                 
+                print("selected item -> \(item.rawValue) - turnCurrentItem -> \(String(describing: playerPlay.turnCurrentItem?.simonColor.rawValue))")
                 guard let correctMove = playerPlay.turnCurrentItem,
                     item == correctMove.simonColor else {
                         playerPlay.score.errors += 1
                         self.delegate?.playerWrongMove(counter: playerPlay.score.errors)
-                        let _ = internalCheckFinishGame()
+                        internalCheckFinishGame()
                         return
                 }
                 
                 //if current player move is correct and it's expected
                 //last one, let's finish game
-                if !internalCheckFinishGame() {
-                    playerPlay.score.correct += 1
-                    self.delegate?.playerCorrectMove(counter: playerPlay.score.correct)
-                }
+                playerPlay.score.correct += 1
+                self.delegate?.playerCorrectMove(counter: playerPlay.score.correct)
+                internalCheckFinishGame()
+                
                 break
             default: break
             }
@@ -218,7 +217,7 @@ extension SimonGameViewModel {
     }
 }
 
-//MARK: public interface 
+//MARK: public interface
 public extension SimonGameViewModel {
     
     public struct PlayerScore {
@@ -252,3 +251,4 @@ public extension SimonGameViewModel {
         evolveGameState(using: .playTapAction(item: item))
     }
 }
+
